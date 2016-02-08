@@ -10,6 +10,8 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/paper/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -29,25 +31,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Christian Eckenrode</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="/">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="mailto:eckenrodechristian@gmail.com">Contact</a></li>
           </ul>
         </div>
         <!--/.nav-collapse -->
@@ -61,13 +53,13 @@
       </div>
     </div>
     <div class="container main">
-      <div class="row about">
+      <div id="about" class="row about">
         <div class="col-md-12">
           <h3>About Me</h3>
           <p class="lead">Currently living in Rahway, New Jersey, I'm a Full Stack Web Developer with a passion for building and solving complex problems. I'm interested in writing elegant reusable code to build products that connect people to the things they need with less friction. Check out my portfolio!</p>
         </div>
       </div>
-      <div class="row portfolio">
+      <div id="portfolio" class="row portfolio">
         <div class="col-md-12">
           <h3>My Portfolio</h3>
         </div>
@@ -76,7 +68,7 @@
         <div class="col-md-4 col-sm-6">
           <div class='pca-hold'>
             <div class='pca-main'>
-              <img src="images/click-your-friends.png" class="img-responsive img-port">
+              <img id="clickyourfriends" src="images/click-your-friends.png" class="img-responsive img-port">
               <div class='pca-inner'>
               </div>
               <!-- 'pca-inner' -->
@@ -96,7 +88,7 @@
         <div class="col-md-4 col-sm-6">
           <div class='pca-hold'>
             <div class='pca-main'>
-              <img src="images/pokemon-rps.png" class="img-responsive img-port">
+              <img id="chooseyourstarter" src="images/pokemon-rps.png" class="img-responsive img-port">
               <div class='pca-inner'>
               </div>
               <!-- 'pca-inner' -->
@@ -116,7 +108,7 @@
         <div class="col-md-4 col-sm-6">
           <div class='pca-hold'>
             <div class='pca-main'>
-              <img src="images/seahaven.png" class="img-responsive img-port">
+              <img id="seahaven" src="images/seahaven.png" class="img-responsive img-port">
               <div class='pca-inner'>
               </div>
               <!-- 'pca-inner' -->
@@ -138,7 +130,7 @@
         <div class="col-md-4 col-sm-6">
           <div class='pca-hold'>
             <div class='pca-main'>
-              <img src="images/kayak-clone.png" class="img-responsive img-port">
+              <img id="kayakclone" src="images/kayak-clone.png" class="img-responsive img-port">
               <div class='pca-inner'>
               </div>
               <!-- 'pca-inner' -->
@@ -158,7 +150,7 @@
         <div class="col-md-4 col-sm-6">
           <div class='pca-hold'>
             <div class='pca-main'>
-              <img src="images/bitcurrents.png" class="img-responsive img-port">
+              <img id="bitcur" src="images/bitcurrents.png" class="img-responsive img-port">
               <div class='pca-inner'>
               </div>
               <!-- 'pca-inner' -->
@@ -178,7 +170,7 @@
         <div class="col-md-4 col-sm-6">
           <div class='pca-hold'>
             <div class='pca-main'>
-              <img src="images/seahaven.png" class="img-responsive img-port">
+              <img id="seahave" src="images/seahaven.png" class="img-responsive img-port">
               <div class='pca-inner'>
               </div>
               <!-- 'pca-inner' -->
@@ -196,7 +188,7 @@
           </div>
         </div>
       </div>
-      <div class="row skills">
+      <div id="skills" class="row skills">
         <div class="col-md-12">
           <h1>My Skills</h1>
         </div>
@@ -257,7 +249,10 @@
     </div>
     <footer class="footer">
       <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
+        <a href="https://github.com/ceckenrode" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+        <a href="https://twitter.com/cseckenrode" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/christianeckenrode" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+        <a href="http://stackoverflow.com/users/5179478/ceckenrode" target="_blank"><i class="fa fa-stack-overflow fa-2x"></i></a>
       </div>
     </footer>
     </div>
@@ -265,6 +260,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootbox.min.js"></script>
+    <script type="text/javascript" src="js/modals.js"></script>
     <script type="text/javascript" src="js/githubAJAX.js"></script>
     <script type="text/javascript" src="js/commits.js"></script>
   </body>
