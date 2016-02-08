@@ -62,7 +62,7 @@
     </div>
     <div class="container main">
       <div class="row about">
-        <div class="col-md-10 col-md-offset-1">
+        <div class="col-md-12">
           <h3>About Me</h3>
           <p class="lead">Currently living in Rahway, New Jersey, I'm a Full Stack Web Developer with a passion for building and solving complex problems. I'm interested in writing elegant reusable code to build products that connect people to the things they need with less friction. Check out my portfolio!</p>
         </div>
@@ -196,12 +196,77 @@
           </div>
         </div>
       </div>
+      <div class="row skills">
+        <div class="col-md-12">
+          <h1>My Skills</h1>
+        </div>
+        <div class="row skills">
+          <div class="col-md-4">
+            <ul class="list-group skills">
+              <li class="list-group-item">HTML5</li>
+              <li class="list-group-item">CSS3</li>
+              <li class="list-group-item">Bootstrap</li>
+              <li class="list-group-item">JavaScript</li>
+              <li class="list-group-item">jQuery</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-group skills">
+              <li class="list-group-item">Node.js</li>
+              <li class="list-group-item">Ajax</li>
+              <li class="list-group-item">Ruby</li>
+              <li class="list-group-item">SQL</li>
+              <li class="list-group-item">Firebase</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-group skills">
+              <li class="list-group-item">RESTful APIs</li>
+              <li class="list-group-item">GitHub</li>
+              <li class="list-group-item">Heroku</li>
+              <li class="list-group-item">Wordpress</li>
+              <li class="list-group-item">Tumblr</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row github">
+        <div class="col-md-12">
+          <h1>My Github</h1>
+        </div>
+        <div class="row github">
+          <div class="col-md-3">
+            <h3>My Github Projects</h3>
+            <div class="list-group git">
+            </div>
+          </div>
+          <div class="col-md-9">
+            <h3>Click a row to open the commit url in a new page</h3>
+            <table class="table">
+              <thead>
+                <th>Author</th>
+                <th>Message</th>
+                <th>Date</th>
+              </thead>
+              <tbody id="gitTbody">
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Place sticky footer content here.</p>
+      </div>
+    </footer>
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/githubAJAX.js"></script>
+    <script type="text/javascript" src="js/commits.js"></script>
   </body>
 
 </html>
