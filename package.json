@@ -1,0 +1,19 @@
+{
+  "name": "fullstackportfolio",
+  "version": "1.0.0",
+  "description": "Christian Eckenrode Full Stack Web Developer Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceckenrode/fullStackPortfolio.git"
+  },
+  "author": "Christian Eckenrode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceckenrode/fullStackPortfolio/issues"
+  },
+  "homepage": "https://github.com/ceckenrode/fullStackPortfolio#readme"
+}
