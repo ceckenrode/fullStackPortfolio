@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ceckenrode/fullStackPortfolio/issues"
   },
-  "homepage": "https://github.com/ceckenrode/fullStackPortfolio#readme"
+  "homepage": "https://github.com/ceckenrode/fullStackPortfolio#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
